@@ -15,10 +15,10 @@
 		1C5768EA1F42D88600F35200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5768E81F42D88600F35200 /* LaunchScreen.storyboard */; };
 		1C5768F51F42D88600F35200 /* YFCategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5768F41F42D88600F35200 /* YFCategoryDemoTests.m */; };
 		1C5769001F42D88600F35200 /* YFCategoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5768FF1F42D88600F35200 /* YFCategoryDemoUITests.m */; };
-		1C57691C1F42EF7100F35200 /* YFCategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1C57691B1F42EF7100F35200 /* YFCategory.podspec */; };
 		1C5769271F42F18F00F35200 /* NSObject+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5769201F42F18F00F35200 /* NSObject+YFCategory.m */; };
 		1C5769281F42F18F00F35200 /* UIDevice+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5769231F42F18F00F35200 /* UIDevice+YFCategory.m */; };
 		1C5769291F42F18F00F35200 /* UIView+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5769251F42F18F00F35200 /* UIView+YFCategory.m */; };
+		1C57692B1F42F38900F35200 /* YFCategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1C57692A1F42F38900F35200 /* YFCategory.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		1C5768FB1F42D88600F35200 /* YFCategoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFCategoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5768FF1F42D88600F35200 /* YFCategoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFCategoryDemoUITests.m; sourceTree = "<group>"; };
 		1C5769011F42D88600F35200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C57691B1F42EF7100F35200 /* YFCategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YFCategory.podspec; sourceTree = "<group>"; };
 		1C57691F1F42F18F00F35200 /* NSObject+YFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YFCategory.h"; sourceTree = "<group>"; };
 		1C5769201F42F18F00F35200 /* NSObject+YFCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YFCategory.m"; sourceTree = "<group>"; };
 		1C5769221F42F18F00F35200 /* UIDevice+YFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YFCategory.h"; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		1C5769241F42F18F00F35200 /* UIView+YFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YFCategory.h"; sourceTree = "<group>"; };
 		1C5769251F42F18F00F35200 /* UIView+YFCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YFCategory.m"; sourceTree = "<group>"; };
 		1C5769261F42F18F00F35200 /* YFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCategory.h; sourceTree = "<group>"; };
+		1C57692A1F42F38900F35200 /* YFCategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YFCategory.podspec; path = ../../YFCategory.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				1C57691D1F42F18F00F35200 /* YFCategory */,
-				1C57691B1F42EF7100F35200 /* YFCategory.podspec */,
+				1C57692A1F42F38900F35200 /* YFCategory.podspec */,
 				1C5768DD1F42D88600F35200 /* AppDelegate.h */,
 				1C5768DE1F42D88600F35200 /* AppDelegate.m */,
 				1C5768E01F42D88600F35200 /* ViewController.h */,
@@ -297,7 +297,7 @@
 				1C5768EA1F42D88600F35200 /* LaunchScreen.storyboard in Resources */,
 				1C5768E71F42D88600F35200 /* Assets.xcassets in Resources */,
 				1C5768E51F42D88600F35200 /* Main.storyboard in Resources */,
-				1C57691C1F42EF7100F35200 /* YFCategory.podspec in Resources */,
+				1C57692B1F42F38900F35200 /* YFCategory.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

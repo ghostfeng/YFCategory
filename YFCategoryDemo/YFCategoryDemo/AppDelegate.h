@@ -6,6 +6,17 @@
 //  Copyright © 2017年 Witgo. All rights reserved.
 //
 
+/*
+ s.subspec 'Foundation+YFCategory' do |ss|
+ ss.source_files  = "YFCategory/Foundation+YFCategory/*.{h,m}"
+ ss.public_header_files = "YFCategory/Foundation+YFCategory/*.h"
+ end
+ 
+ s.subspec 'UIKit+YFCategory' do |ss|
+ ss.source_files  = "YFCategory/UIKit+YFCategory/*.{h,m}"
+ ss.public_header_files = "YFCategory/UIKit+YFCategory/*.h"
+ end
+ */
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
