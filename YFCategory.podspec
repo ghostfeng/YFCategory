@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/ghostfeng/YFCategory"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = { "LiuYongfeng" => "1253289963@qq.com" }
-    s.platform     = :ios, "8.0"
     s.source       = { :git => "https://github.com/ghostfeng/YFCategory.git", :tag =>   s.version }
-    s.source_files  = "YFCategory/*"
+    s.platform     = :ios, '8.0'
+    s.source_files = 'YFCategory/**/*.{h,m}'
     s.ios.deployment_target = "8.0"
     s.requires_arc = true
 end
