@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
         ss.public_header_files = 'YFCategory/Photos/*.h'
     end
 
-    s.dependency "Foundation"
-    s.dependency "UIKit"
-    s.dependency "Photos"
+    s.dependency 'Foundation'
+    s.dependency 'UIKit'
+    s.dependency 'Photos'
 end
 
