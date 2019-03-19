@@ -9,9 +9,7 @@
 #ifndef YFCategory_h
 #define YFCategory_h
 
-#import "NSObject+YFCategory.h"
-
-#import "UIView+YFCategory.h"
-#import "UIDevice+YFCategory.h"
+#import "YFCategory+Foundation.h"
+#import "YFCategory+UIKit.h"
 
 #endif /* YFCategory_h */
