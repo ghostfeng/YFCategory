@@ -11,13 +11,11 @@
 
 @implementation NSObject (YFCategory)
 
-+ (void)yf_exchangeInstanceMethod1:(SEL)method1 method2:(SEL)method2
-{
++ (void)yf_exchangeInstanceMethod1:(SEL)method1 method2:(SEL)method2 {
     method_exchangeImplementations(class_getInstanceMethod(self, method1), class_getInstanceMethod(self, method2));
 }
 
-+ (void)yf_exchangeClassMethod1:(SEL)method1 method2:(SEL)method2
-{
++ (void)yf_exchangeClassMethod1:(SEL)method1 method2:(SEL)method2 {
     method_exchangeImplementations(class_getClassMethod(self, method1), class_getClassMethod(self, method2));
 }
 

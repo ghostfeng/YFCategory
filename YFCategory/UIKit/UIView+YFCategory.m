@@ -197,7 +197,7 @@
 /**
  移除所有的子视图
  */
-- (void)yf_removeSubviews {
+- (void)yf_removeAllSubviews {
     for (UIView *subView in self.subviews) {
         [subView removeFromSuperview];
     }

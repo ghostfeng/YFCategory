@@ -26,7 +26,7 @@
  @return 操作系统版本号
  */
 +(NSString *)yf_osVersion {
-    return [NSString stringWithFormat:@"%@ %@",[self currentDevice].systemName,[self currentDevice].systemVersion];
+    return [NSString stringWithFormat:@"%@%@",[self currentDevice].systemName,[self currentDevice].systemVersion];
 }
 
 /**

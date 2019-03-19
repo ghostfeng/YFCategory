@@ -19,6 +19,10 @@
 		1C5769281F42F18F00F35200 /* UIDevice+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5769231F42F18F00F35200 /* UIDevice+YFCategory.m */; };
 		1C5769291F42F18F00F35200 /* UIView+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5769251F42F18F00F35200 /* UIView+YFCategory.m */; };
 		1C57692B1F42F38900F35200 /* YFCategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1C57692A1F42F38900F35200 /* YFCategory.podspec */; };
+		1CF6665E2240926000917197 /* NSDate+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6665D2240926000917197 /* NSDate+YFCategory.m */; };
+		1CF66661224092A200917197 /* NSString+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF66660224092A200917197 /* NSString+YFCategory.m */; };
+		1CF666642240956500917197 /* UIColor+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF666632240956500917197 /* UIColor+YFCategory.m */; };
+		1CF66667224095BC00917197 /* UIImage+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF66666224095BC00917197 /* UIImage+YFCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,14 @@
 		1C5769251F42F18F00F35200 /* UIView+YFCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YFCategory.m"; sourceTree = "<group>"; };
 		1C5769261F42F18F00F35200 /* YFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCategory.h; sourceTree = "<group>"; };
 		1C57692A1F42F38900F35200 /* YFCategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YFCategory.podspec; path = ../../YFCategory.podspec; sourceTree = "<group>"; };
+		1CF6665C2240926000917197 /* NSDate+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YFCategory.h"; sourceTree = "<group>"; };
+		1CF6665D2240926000917197 /* NSDate+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YFCategory.m"; sourceTree = "<group>"; };
+		1CF6665F224092A200917197 /* NSString+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YFCategory.h"; sourceTree = "<group>"; };
+		1CF66660224092A200917197 /* NSString+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YFCategory.m"; sourceTree = "<group>"; };
+		1CF666622240956500917197 /* UIColor+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YFCategory.h"; sourceTree = "<group>"; };
+		1CF666632240956500917197 /* UIColor+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YFCategory.m"; sourceTree = "<group>"; };
+		1CF66665224095BC00917197 /* UIImage+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YFCategory.h"; sourceTree = "<group>"; };
+		1CF66666224095BC00917197 /* UIImage+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YFCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,32 +169,40 @@
 		1C57691D1F42F18F00F35200 /* YFCategory */ = {
 			isa = PBXGroup;
 			children = (
-				1C57691E1F42F18F00F35200 /* Foundation+YFCategory */,
-				1C5769211F42F18F00F35200 /* UIKit+YFCategory */,
+				1C57691E1F42F18F00F35200 /* Foundation */,
+				1C5769211F42F18F00F35200 /* UIKit */,
 				1C5769261F42F18F00F35200 /* YFCategory.h */,
 			);
 			name = YFCategory;
 			path = ../../YFCategory;
 			sourceTree = "<group>";
 		};
-		1C57691E1F42F18F00F35200 /* Foundation+YFCategory */ = {
+		1C57691E1F42F18F00F35200 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
 				1C57691F1F42F18F00F35200 /* NSObject+YFCategory.h */,
 				1C5769201F42F18F00F35200 /* NSObject+YFCategory.m */,
+				1CF6665C2240926000917197 /* NSDate+YFCategory.h */,
+				1CF6665D2240926000917197 /* NSDate+YFCategory.m */,
+				1CF6665F224092A200917197 /* NSString+YFCategory.h */,
+				1CF66660224092A200917197 /* NSString+YFCategory.m */,
 			);
-			path = "Foundation+YFCategory";
+			path = Foundation;
 			sourceTree = "<group>";
 		};
-		1C5769211F42F18F00F35200 /* UIKit+YFCategory */ = {
+		1C5769211F42F18F00F35200 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				1C5769221F42F18F00F35200 /* UIDevice+YFCategory.h */,
 				1C5769231F42F18F00F35200 /* UIDevice+YFCategory.m */,
 				1C5769241F42F18F00F35200 /* UIView+YFCategory.h */,
 				1C5769251F42F18F00F35200 /* UIView+YFCategory.m */,
+				1CF666622240956500917197 /* UIColor+YFCategory.h */,
+				1CF666632240956500917197 /* UIColor+YFCategory.m */,
+				1CF66665224095BC00917197 /* UIImage+YFCategory.h */,
+				1CF66666224095BC00917197 /* UIImage+YFCategory.m */,
 			);
-			path = "UIKit+YFCategory";
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = Witgo;
+				ORGANIZATIONNAME = "刘永峰";
 				TargetAttributes = {
 					1C5768D61F42D88600F35200 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -322,11 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF66667224095BC00917197 /* UIImage+YFCategory.m in Sources */,
+				1CF66661224092A200917197 /* NSString+YFCategory.m in Sources */,
 				1C5769271F42F18F00F35200 /* NSObject+YFCategory.m in Sources */,
 				1C5768E21F42D88600F35200 /* ViewController.m in Sources */,
 				1C5768DF1F42D88600F35200 /* AppDelegate.m in Sources */,
 				1C5768DC1F42D88600F35200 /* main.m in Sources */,
 				1C5769281F42F18F00F35200 /* UIDevice+YFCategory.m in Sources */,
+				1CF666642240956500917197 /* UIColor+YFCategory.m in Sources */,
+				1CF6665E2240926000917197 /* NSDate+YFCategory.m in Sources */,
 				1C5769291F42F18F00F35200 /* UIView+YFCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +593,7 @@
 				1C5769061F42D88600F35200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C5769071F42D88600F35200 /* Build configuration list for PBXNativeTarget "YFCategoryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +602,7 @@
 				1C5769091F42D88600F35200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C57690A1F42D88600F35200 /* Build configuration list for PBXNativeTarget "YFCategoryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +611,7 @@
 				1C57690C1F42D88600F35200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

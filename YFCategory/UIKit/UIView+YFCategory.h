@@ -10,7 +10,6 @@
 
 @interface UIView (YFCategory)
 
-#pragma mark - properties
 /** 裁剪半径 */
 @property (nonatomic,assign) IBInspectable CGFloat yf_cornerRadius;
 /** 边缘线宽度 */
@@ -69,6 +68,6 @@
 /**
  移除所有的子视图
  */
-- (void)yf_removeSubviews;
+- (void)yf_removeAllSubviews;
 
 @end

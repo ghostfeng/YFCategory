@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.subspec 'Foundation+YFCategory' do |ss|
-        ss.source_files  = 'YFCategory/Foundation+YFCategory/*.{h,m}'
-        ss.public_header_files = 'YFCategory/Foundation+YFCategory/*.h'
+        ss.source_files  = 'YFCategory/Foundation/*.{h,m}'
+        ss.public_header_files = 'YFCategory/Foundation/*.h'
     end
 
     s.subspec 'UIKit+YFCategory' do |ss|
-        ss.source_files  = 'YFCategory/UIKit+YFCategory/*.{h,m}'
-        ss.public_header_files = 'YFCategory/UIKit+YFCategory/*.h'
+        ss.source_files  = 'YFCategory/UIKit/*.{h,m}'
+        ss.public_header_files = 'YFCategory/UIKit/*.h'
     end
 end
 
