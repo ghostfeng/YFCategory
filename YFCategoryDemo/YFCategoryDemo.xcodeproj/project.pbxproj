@@ -23,6 +23,7 @@
 		1CF66661224092A200917197 /* NSString+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF66660224092A200917197 /* NSString+YFCategory.m */; };
 		1CF666642240956500917197 /* UIColor+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF666632240956500917197 /* UIColor+YFCategory.m */; };
 		1CF66667224095BC00917197 /* UIImage+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF66666224095BC00917197 /* UIImage+YFCategory.m */; };
+		1CF6666F2240BC1C00917197 /* PHAsset+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF6666E2240BC1C00917197 /* PHAsset+YFCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,9 @@
 		1CF66666224095BC00917197 /* UIImage+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YFCategory.m"; sourceTree = "<group>"; };
 		1CF6666A2240B92C00917197 /* YFCategory+Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFCategory+Foundation.h"; sourceTree = "<group>"; };
 		1CF6666B2240B95A00917197 /* YFCategory+UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFCategory+UIKit.h"; sourceTree = "<group>"; };
+		1CF6666D2240BC1C00917197 /* PHAsset+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAsset+YFCategory.h"; sourceTree = "<group>"; };
+		1CF6666E2240BC1C00917197 /* PHAsset+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+YFCategory.m"; sourceTree = "<group>"; };
+		1CF666702240BC9A00917197 /* YFCategory+Photos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFCategory+Photos.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 		1C57691D1F42F18F00F35200 /* YFCategory */ = {
 			isa = PBXGroup;
 			children = (
+				1CF6666C2240BBFB00917197 /* Photos */,
 				1C57691E1F42F18F00F35200 /* Foundation */,
 				1C5769211F42F18F00F35200 /* UIKit */,
 				1C5769261F42F18F00F35200 /* YFCategory.h */,
@@ -207,6 +212,16 @@
 				1CF6666B2240B95A00917197 /* YFCategory+UIKit.h */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1CF6666C2240BBFB00917197 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6666D2240BC1C00917197 /* PHAsset+YFCategory.h */,
+				1CF6666E2240BC1C00917197 /* PHAsset+YFCategory.m */,
+				1CF666702240BC9A00917197 /* YFCategory+Photos.h */,
+			);
+			path = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +371,7 @@
 				1CF666642240956500917197 /* UIColor+YFCategory.m in Sources */,
 				1CF6665E2240926000917197 /* NSDate+YFCategory.m in Sources */,
 				1C5769291F42F18F00F35200 /* UIView+YFCategory.m in Sources */,
+				1CF6666F2240BC1C00917197 /* PHAsset+YFCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

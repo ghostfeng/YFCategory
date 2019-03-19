@@ -11,5 +11,6 @@
 
 #import "YFCategory+Foundation.h"
 #import "YFCategory+UIKit.h"
+#import "YFCategory+Photos.h"
 
 #endif /* YFCategory_h */
