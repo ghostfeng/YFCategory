@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3145B02272DB2A00CB3111 /* UINavigationBar+YFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3145AF2272DB2A00CB3111 /* UINavigationBar+YFCategory.m */; };
 		1C5768DC1F42D88600F35200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5768DB1F42D88600F35200 /* main.m */; };
 		1C5768DF1F42D88600F35200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5768DE1F42D88600F35200 /* AppDelegate.m */; };
 		1C5768E21F42D88600F35200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5768E11F42D88600F35200 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C3145AE2272DB2A00CB3111 /* UINavigationBar+YFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+YFCategory.h"; sourceTree = "<group>"; };
+		1C3145AF2272DB2A00CB3111 /* UINavigationBar+YFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+YFCategory.m"; sourceTree = "<group>"; };
 		1C5768D71F42D88600F35200 /* YFCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5768DB1F42D88600F35200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C5768DD1F42D88600F35200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 				1CF666632240956500917197 /* UIColor+YFCategory.m */,
 				1CF66665224095BC00917197 /* UIImage+YFCategory.h */,
 				1CF66666224095BC00917197 /* UIImage+YFCategory.m */,
+				1C3145AE2272DB2A00CB3111 /* UINavigationBar+YFCategory.h */,
+				1C3145AF2272DB2A00CB3111 /* UINavigationBar+YFCategory.m */,
 				1CF6666B2240B95A00917197 /* YFCategory+UIKit.h */,
 			);
 			path = UIKit;
@@ -313,6 +318,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -363,6 +369,7 @@
 			files = (
 				1CF66667224095BC00917197 /* UIImage+YFCategory.m in Sources */,
 				1CF66661224092A200917197 /* NSString+YFCategory.m in Sources */,
+				1C3145B02272DB2A00CB3111 /* UINavigationBar+YFCategory.m in Sources */,
 				1C5769271F42F18F00F35200 /* NSObject+YFCategory.m in Sources */,
 				1C5768E21F42D88600F35200 /* ViewController.m in Sources */,
 				1C5768DF1F42D88600F35200 /* AppDelegate.m in Sources */,

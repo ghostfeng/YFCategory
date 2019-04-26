@@ -13,5 +13,6 @@
 #import "UIView+YFCategory.h"
 #import "UIColor+YFCategory.h"
 #import "UIImage+YFCategory.h"
+#import "UINavigationBar+YFCategory.h"
 
 #endif /* YFCategory_UIKit_h */
