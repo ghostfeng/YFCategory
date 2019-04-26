@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YFCategory'
-    s.version      = '0.0.3'
+    s.version      = '0.0.4'
     s.summary      = 'Some commonly used category.'
     s.homepage     = 'https://github.com/ghostfeng/YFCategory'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
